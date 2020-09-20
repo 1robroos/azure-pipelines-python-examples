@@ -16,6 +16,11 @@ origin  https://github.com/1robroos/azure-pipelines-python-examples.git (push)
 secondary       https://1robroos@dev.azure.com/1robroos/Testing%20a%20basic%20Python%20library/_git/Testing%20a%20basic%20Python%20library (fetch)
 secondary       https://1robroos@dev.azure.com/1robroos/Testing%20a%20basic%20Python%20library/_git/Testing%20a%20basic%20Python%20library (push)
 ```
+push to the origin repo on github:
+```
+git push
+```
+Push to the secondary repo on ADO repo:
 ```
 git push secondary --all
 Enumerating objects: 4, done.
